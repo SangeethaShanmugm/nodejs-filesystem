@@ -54,7 +54,7 @@ let seconds = date.getSeconds();
 let filename = date.getFullYear() + "-" + month + "-" + day + "-" + hours +"-"+ minutes + "-" + seconds;
 filename += ".txt";
 
-    writeFileSync(`./myfiles/${filename}`, `${start} + "Hello"`, (err) => {
+    writeFileSync(`./myfiles/${filename}`, `${start} + "https://github.com/SangeethaShanmugm/File_System/blob/main/index.js" + "https://file-system-using-timestamp.herokuapp.com/"`, (err) => {
         if (err)
             throw err;
         console.log('File created');

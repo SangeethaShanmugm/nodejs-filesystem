@@ -32,7 +32,7 @@ createfolder();
 
     
 app.get("/", (request, response) => {
-    response.send("<h1>FileSystem with timestamp</h1>");
+    response.send("<h1>FileSystem with timestamp <br/> <br/>Create a file - /newfile,<br/> List the files- /listfiles </h1>");
   });
 
   
